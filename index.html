@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MY PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+ <header id="home">
+  <div class="orbit-container">
+    <img src="me.png" alt="Profile" class="profile-img" />
+
+    <div class="orbit">
+      <img src="html.png" class="orbit-icon" />
+      <img src="css.png" class="orbit-icon" />
+      <img src="java-script.png" class="orbit-icon" />
+      <img src="react.png" class="orbit-icon" />
+      <img src="node.png" class="orbit-icon" />
+      <img src="mongo.png" class="orbit-icon" />
+      <img src="python.png" class="orbit-icon" />
+      <img src="chatgpt.png" class="orbit-icon" />
+    </div>
+  </div>
+
+  <h1>Hi 👋 I am Abhinav</h1>
+  <p> Aspiring Developer | Web Enthusiast</p>
+ <nav id="mainNav">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+</header>
+
+
+  <section id="about">
+  <h2>About Me</h2>
+ <p>
+  I’m a third-year B.Tech Computer Science student at SVIST Kolkata ,West Bengal, always curious about how technology works. I did my 10th and 12th from ASSPCS,Patna,Bihar. I love building modern, user-friendly web apps and am always exploring new tools in software development and AI to expand what I can create.
+</p>
+
+<p>
+  I've worked with HTML, CSS, JavaScript, React (Vite), Node.js, Express.js, MongoDB, and Python. I enjoy turning ideas into full-stack web apps that work smoothly and look good. I also explore AI and design tools whenever I can,For me tech and creativity go hand in hand.
+</p>
+
+<p>
+  <strong>Contacts:</strong><br>
+  📞 Phone: +91-8789278459<br>
+  📧 Email: singhabhinav2205@gmail.com
+</p>
+  <a href="abhinav.pdf" download class="download-cv-btn">📄GET MY RESUME</a>
+</section>
+
+
+ <section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card" onclick="toggleSlide(this)">
+    <div class="project-content">
+      <h3>TextLight</h3>
+      <p>TextLight is a sleek and intuitive text utility tool designed to simplify everyday text transformations. Whether you’re a student, developer, or content creator, TextLight helps you convert text to uppercase, lowercase, title case, and more with just a click. It features a user-friendly interface and supports Dark Mode for comfortable usage at night. Built using React.js, it responds smoothly and offers a modern single-page experience. It's ideal for quick text formatting needs, especially during writing, coding, or documentation. With minimal design and maximum functionality, TextLight is a must-have tool for anyone working with words.</p>
+    </div>
+    <div class="project-slide">
+      <img src="textlight1.png" alt="TextLight Screenshot 1" />
+      <img src="textlight2.png" alt="TextLight Screenshot 2" />
+    </div>
+  </div>
+  <div class="project-card" onclick="toggleSlide(this)">
+    <div class="project-content">
+      <h3>Task Manager App</h3>
+      <p>The Task Manager App is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application built to help users manage their daily tasks efficiently. It features user authentication (register/login), allowing individuals to create, edit, delete, and track tasks securely. Each task can be marked with a progress level and a deadline to boost productivity and accountability. The intuitive UI makes it easy to view task status and organize work. Whether you're a professional managing projects or a student juggling assignments, this app streamlines your workflow. It's more than just a to-do list—it’s a smart assistant to keep you on track.</p>
+    </div>
+    <div class="project-slide">
+      <img src="task 1.png" alt="Task Manager Screenshot 1" />
+      <img src="task2.png" alt="Task Manager Screenshot 2" />
+      <img src="task3.png" alt="Task Manager Screenshot 3" />
+    </div>
+  </div>
+</section>
+
+
+
+ <section id="skills">
+  <h2>Skills</h2>
+  <p></p>
+  <p></p>
+  <p></p>
+  <div class="skill-card" style="--percent: 95%;">
+    <img src="html.png" alt="HTML">
+    <div class="skill-info">
+      <div class="skill-name">HTML</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card" style="--percent: 80%;">
+    <img src="css.png" alt="CSS">
+    <div class="skill-info">
+      <div class="skill-name">C S S</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+  <div class="skill-card" style="--percent: 75%;">
+    <img src="java-script.png" alt="JavaScript">
+    <div class="skill-info">
+      <div class="skill-name">JAVASCRIPT</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card" style="--percent: 80%;">
+    <img src="react.png" alt="React JS">
+    <div class="skill-info">
+      <div class="skill-name">REACT JS + VITE</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card" style="--percent: 90%;">
+    <img src="mongo.png" alt="MongoDB">
+    <div class="skill-info">
+      <div class="skill-name">MONGODB</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card" style="--percent: 50%;">
+    <img src="python.png" alt="Python">
+    <div class="skill-info">
+      <div class="skill-name">PYTHON</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+   <div class="skill-card" style="--percent: 65%;">
+    <img src="c.png" alt="Node.js">
+    <div class="skill-info">
+      <div class="skill-name">C PROGRAMMING</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+   <div class="skill-card" style="--percent: 85%;">
+    <img src="express.png" alt="Node.js">
+    <div class="skill-info">
+      <div class="skill-name">EXPRESS JS</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="skill-card" style="--percent: 65%;">
+    <img src="node.png" alt="Node.js">
+    <div class="skill-info">
+      <div class="skill-name">NODE JS</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+   <div class="skill-card" style="--percent: 75%;">
+    <img src="postman.png" alt="JavaScript">
+    <div class="skill-info">
+      <div class="skill-name">POSTMAN </div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-card" style="--percent: 60%;">
+    <img src="ai.png" alt="AI">
+    <div class="skill-info">
+      <div class="skill-name">ARTIFICIAL INTELLIGENCE</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+   <div class="skill-card" style="--percent: 65%;">
+    <img src="github.png" alt="Node.js">
+    <div class="skill-info">
+      <div class="skill-name">GITHUB</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+   <div class="skill-card" style="--percent: 65%;">
+    <img src="git.png" alt="Node.js">
+    <div class="skill-info">
+      <div class="skill-name">GIT</div>
+      <div class="skill-bar">
+        <div class="skill-bar-fill"></div>
+      </div>
+    </div>
+  
+</section>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="social-links">
+   <a href="https://mail.google.com/mail/?view=cm&to=singhabhinav2205@gmail.com" target="_blank">
+  <img src="gmail.png" alt="Gmail" />
+</a>
+    </a>
+    <a href="https://www.linkedin.com/in/abhinav-159452351/" target="_blank">
+      <img src="linkedin.png" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/Abhinav22singh" target="_blank">
+      <img src="github.png" alt="GitHub" />
+    </a>
+    <a href="https://www.instagram.com/abhinav_singh2205/" target="_blank">
+      <img src="instagram.png" alt="Instagram" />
+    </a>
+    <a href="https://x.com/Abhinav17587901" target="_blank">
+      <img src="twitter.png" alt="Twitter" />
+    </a>
+  </div>
+</section>
+  <script src="script.js"></script>
+<footer>
+    <p>© 2025 PORTOFOLIO.WEBSITE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
